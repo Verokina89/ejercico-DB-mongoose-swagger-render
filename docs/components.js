@@ -19,7 +19,7 @@ module.exports = {
                         description:"email to register",
                         example:"john@gmail.com"
                     },
-                    email:{
+                    password:{
                         type:'string',
                         description:"user password",
                         example:"123456"
