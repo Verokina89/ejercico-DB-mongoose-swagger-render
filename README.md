@@ -30,3 +30,8 @@ La estructura actualizada será la siguiente:
 
 # PISTAS:
 - Ejemplos de como documentar en swagger: https://docs.google.com/presentation/d/13kmc77HqbdCoXCm62nT0CmOw62ryB3LxC6vWJ1mgQdU/edit?usp=sharing
+
+
+/*
+NOTAS:
+ Para acceder a Swagger la ruta indicada para acceder es añadir el endpoint de swagger; PORTapi-docs/   endpoint de est ejercicio: http://localhost:8080/api-docs/ */
