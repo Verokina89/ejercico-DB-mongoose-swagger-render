@@ -1,31 +1,27 @@
 module.exports = {
     components:{
         schemas:{
-            User:{
+            Task:{
                 type:'object',
                 properties:{
                     _id:{
                         type:'objectId',
-                        description:"user identification number",
+                        description:"task identification ID",
                         example:"6201064b0028de7866e2b2c4"
                     },
-                    username:{
+                    title:{
                         type:'string',
-                        description:"username to register",
-                        example:"John"
+                        description:" title of the task",
+                        example:"finish homework"
                     },
-                    email:{
-                        type:'string',
-                        description:"email to register",
-                        example:"john@gmail.com"
-                    },
-                    password:{
-                        type:'string',
-                        description:"user password",
-                        example:"123456"
-                    },
+                    completed:{
+                        type:'boolean',
+                        description:"task done",
+                        example:"false"
+                    }
                 }
-            }
+            },   required: ["title", "completed"],
         }
     }
 }
+

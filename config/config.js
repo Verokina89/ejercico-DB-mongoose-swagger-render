@@ -1,5 +1,4 @@
 const mongoose = require('mongoose');
-
 // require('dotenv').config(); -->cuando esta env en la raiz
 require('dotenv').config({ path: './env/.env' });
 
