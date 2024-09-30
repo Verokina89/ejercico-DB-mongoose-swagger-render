@@ -6,21 +6,11 @@ module.exports = {
                 properties:{
                     _id:{
                         type:'objectId',
-                        description:"task identification ID",
+                        description:"Task identification ID",
                         example:"6201064b0028de7866e2b2c4"
-                    },
-                    title:{
-                        type:'string',
-                        description:" title of the task",
-                        example:"finish homework"
-                    },
-                    completed:{
-                        type:'boolean',
-                        description:"task done",
-                        example:"false"
                     }
                 }
-            },   required: ["title", "completed"],
+            },   required: ["title", "Completed"],
         }
     }
 }
